@@ -78,17 +78,16 @@ type User3 = {
     occupation?: string;
 };
 
-const user4: User3 = {
+const users: User3 = [{
     name: 'Max Mustermann',
     age: 25,
-    occupation: 'Chimney sweep'};
-
-const user5: User3 = {
+    occupation: 'Chimney sweep'}, {
     name: 'Kate Müller',
     age: 23,
-    occupation: 'Astronaut'};
+    occupation: 'Astronaut'}]
 
 
 function logPerson(user: User3): string {
     return`${user.name} ${user.age}`;
 }
+
