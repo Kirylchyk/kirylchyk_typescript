@@ -78,7 +78,7 @@ type User3 = {
     occupation?: string;
 };
 
-const users: User3 = [{
+const users: User3[] = [{
     name: 'Max Mustermann',
     age: 25,
     occupation: 'Chimney sweep'}, {
